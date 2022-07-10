@@ -1,0 +1,202 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #FDFAFA;
+}
+
+h2, h3 {
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h3 {
+  /* color: #5767a0; */
+  color: #b79190;
+}
+
+h2 {
+  /* color: #7683b4; */
+  color: #cbb0af;
+}
+
+p {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+hr {
+  margin: 3.25rem auto;
+  height: 0;
+  width: 5%;
+  border-top: dotted 0.625rem;
+}
+
+.top {
+  height: 100vh;
+  background-image: url("../images/rajvosa-pozadina2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #3c476e;
+  background-position: center;
+}
+
+.nav-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #dfdfff;
+}
+
+.middle {
+  /* background-color: #d7def7; */
+  /* background-color: #F7E7EA; */
+  background-color: #FDFAFA;
+  /* background-color: #FEFCFC; */
+}
+
+.onama-sekcija {
+  text-align: center;
+  padding-top: 2.5%;
+}
+
+.onama-text {
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.clanovi {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.ekipna-slika {
+  padding: 3% 0 2% 0;
+}
+
+.alen-sekcija, .danijel-sekcija, .admir-sekcija, .benjamin-sekcija {
+  width: 50%;
+  margin: 0 auto;
+  padding: 4.25rem 0 4.25rem 0;
+}
+
+.slike-rajvose {
+  width: 25%;
+}
+
+.alen, .admir {
+  float: left;
+  margin-right: 1.875rem;
+}
+
+.benjamin, .danijel {
+  float: right;
+  margin-left: 1.875rem;
+}
+
+.galerija-tekst {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.keruzel {
+  width: 40%;
+  margin: 0 auto 0 auto;
+  padding: 4.25rem 0 4.25rem 0;
+}
+
+.galerija {
+  background-color: #FDFAFA;
+}
+
+.mailkontakt {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto 0 auto;
+}
+
+.btn {
+  background: #ad8281;
+  background-image: -webkit-linear-gradient(top, #ad8281, #986463);
+  background-image: -moz-linear-gradient(top, #ad8281, #986463);
+  background-image: -ms-linear-gradient(top, #ad8281, #986463);
+  background-image: -o-linear-gradient(top, #ad8281, #986463);
+  background-image: linear-gradient(to bottom, #ad8281, #986463);
+  -webkit-border-radius: 14;
+  -moz-border-radius: 14;
+  border-radius: 14px;
+  text-shadow: 1px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+  margin: 2rem auto 1rem auto;
+  display: block;
+  width: 30%;
+  min-width: 10rem;
+}
+
+.btn:hover {
+  background: #d5bfbe;
+  background-image: -webkit-linear-gradient(top, #d5bfbe, #b79190);
+  background-image: -moz-linear-gradient(top, #d5bfbe, #b79190);
+  background-image: -ms-linear-gradient(top, #d5bfbe, #b79190);
+  background-image: -o-linear-gradient(top, #d5bfbe, #b79190);
+  background-image: linear-gradient(to bottom, #d5bfbe, #b79190);
+  text-decoration: none;
+  color: #EAF6F6;
+}
+
+.tekst-ispod-zelite {
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+.footer {
+  text-align: center;
+  background-color: #B79190;
+  padding: 2% 15%;
+  margin-top: 2rem;
+}
+
+.footer-link {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #986463;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.footer-link:hover {
+  color: #d5bfbe;
+}
+
+.fa-brands {
+  padding-left: 0.1rem;
+  padding-right: 0.25rem;
+  color: #986463;
+}
+
+.copyright {
+  margin: 1rem 0 0 0;
+}
+
+.broj {
+  font-weight: bold;
+  color: #986463;
+}
+
+@media (max-width:900px) {
+  .keruzel {
+    width: 70%;
+  }
+
+  hr {
+    width: 10%;
+    border-top: dotted 0.325rem
+  }
+}
